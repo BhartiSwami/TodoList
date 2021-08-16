@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.nav {
+  background-color: black;
+  float: left;
+  height: 100vh;
+  width: 25rem;
+}
+.main {
+  height: 100vh;
+  background-image: url(../images/main_banner.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+ul {
+  list-style: none;
+  margin: 20px 0px;
+}
+ul li {
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  margin-left: 2.7rem;
+}
+ul li a {
+  text-decoration: none;
+  color: rgb(255, 238, 0);
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+}
+ul li a:hover {
+  background-color: rgb(255, 238, 0);
+  color: black;
+  box-shadow: 0 0 10px rgb(255, 238, 0);
+}
+#container {
+  position: absolute;
+  padding: 1rem;
+  width: 32rem;
+  border: 2px solid rgb(255, 238, 0);
+  margin-left: 40rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  background-color: rgba(20, 20, 20, 0.2);
+  box-shadow: 0px 1px 3px rgb(0255, 238, 0);
+  display: none;
+}
+h1 {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 24px;
+  background-color: rgb(0255, 238, 0);
+  color: black;
+  padding: 15px 10px;
+}
+.completed {
+  color: gray;
+  text-decoration: line-through;
+}
+ul li span {
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  width: 50px;
+  height: 100%;
+}
+span:hover {
+  cursor: pointer;
+}
+#plus {
+  float: right;
+  margin-right: 30px;
+}
+#container #addTodo {
+  width: 500px;
+  float: left;
+  box-sizing: border-box;
+  font-size: 18px;
+  padding: 10px 5px;
+  border: 2px solid rgb(0255, 238, 0);
+}
+#addbtn {
+  font-family: century;
+  font-size: 1.1rem;
+  font-weight: bold;
+  size: 30px;
+  background-color: rgb(0, 162, 255);
+  text-align: right;
+  padding: 11px 25px;
+}
+#divDelete {
+  width: 100%;
+  text-align: center;
+  size: 2rem;
+  background-color: rgb(163, 88, 2);
+  padding: 10px 5px;
+  margin-bottom: 30px;
+  color: whitesmoke;
+  margin-top: 0;
+  margin-top: 10px;
+}
+input:focus {
+  outline: none;
+}
+#container li {
+  height: 40px;
+  background-color: #dcc1a8;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+}
+i {
+  margin-right: 10px;
+}
+#container li:nth-of-type(2n + 1) {
+  background-color: #def461;
+}
+
+#container li:nth-of-type(3n + 1) {
+  background-color: #b7cbe4;
+}
+
+#container li:nth-of-type(4n + 1) {
+  background-color: #a2f3c7;
+}
